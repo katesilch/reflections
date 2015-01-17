@@ -29,6 +29,14 @@ change?
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+	Branches might help is the programmer is considering adding a completely
+	new experimental feature to the project, which will change a lot of code,
+	or the behaviour of the program. He doesn't need to change the existing
+	project for that, he can keep it on the master branch, and create a new
+	experimental branch instead. This way, he can separately work on improving
+	the main branch and adding the new feature, without fearing to break anything.
+	It can also be useful if there are different versions of the product created,
+	and each should be kept separately.
 
 How do the diagrams help you visualize the branch structure?
 
