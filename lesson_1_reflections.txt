@@ -1,0 +1,86 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    Instead of manually reading and comparing every single line of the code in
+    both versions, we just had to observe the differences given to us by the
+    diff command. Some of these differences were there for  a reason, as we
+    wanted to change something in the code of the new version. But some of the
+    differences occured there due to the typos, and that's what caused bugs and
+    problems. So it is much easier to look through the differences only and
+    figure out which one is causing the bug, instead of comparing everything.
+    It saves a lot of time and effort in spotting the bug.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    Keeping the history of a file/project is very important. In case the file
+    gets accidentally deleted, it can be easily restored. Or, if there were
+    changes made to it, and the programmer wants to compare which one is better
+    (more efficient, better-looking, meeting specifications, etc), it's very
+    easy to do so if there is easy access to the old version(s). Also, if there
+    is a bug or a malfunction in the program/file, getting back to the older
+    versions and comparing them to the new one might help correct that. It might
+    also help to find out where the bug came from and how to avoid that mistake
+    in the future.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Manually choosing when to create a commit:
+    -Pros:
+    The programmer can save the code after each logical change, so that each new
+    version is different from the old one in one logical aspect. This way the
+    code will make sence, and the differences between the versions will be easier
+    to spot.
+    -Cons:
+    The programmer might forget to save the code when necessary, or make too big/
+    too small changes between the versions.
+
+    Having versions automatically saved:
+    -Pros:
+    The programmer will not have to worry about remembering to save the code
+    -Cons:
+    Hard to find the optimal conditions for the program to save the versions:
+    if it's based on time, the program might save the file in which the bug is
+    only partially fixed, and there will be no logical value for this version.
+    If it's based on the volume of changes, their importance would not be
+    considered. So if a very important bug was fixed in one line, the program
+    will not be saved. When there were just many minor changes, it will be saved,
+    but the value of this version would be much lower than that of the one where
+    the bug was fixed, if it was saved.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    It all depends on the purpose of the version control system, and what type
+    of files it's working with. In Git, most likely it will be a programming
+    project, which will include multiple files that are correlated. So it makes
+    sence to save them all in one commit, as changing one file would have an
+    effect on other file(s). In Google Docs, people work with text documents,
+    which are often not correlated, and it makes no sence to save multiple files
+    in one commit, when just one was changed.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    git log will show the list of commits, with dates and short descriptions
+    of changes that were introduced in this version. Using git log, the programmer
+    can find the commit that he needs, and then, using its id, compare how it
+    differs from the previous version. git diff will show how the new file is
+    different from the old one, which lines were added/deleted, and what changes
+    were made.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    If a programmer uses version control, he might return to the previous version
+    at any moment, so even if he makes a change that breaks anything, it is easy
+    to return to the previous versions and see if any of them had this error and
+    what version was the first one to have it. Then the programmer can just
+    compare this version to the previous (working) one, and find out what caused
+    the bug.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    I want to try using Git for making my own website with html, css and javascript
+    files, to be able to control my versions.
