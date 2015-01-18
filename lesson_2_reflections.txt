@@ -54,3 +54,10 @@ the diagram the way we do?
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+	Automatic merge allows to merge the lines of the code that are both present
+	in two commits, as well as deleting what was deleted in the original commit.
+	This process saves time and effort, as it is automatically merging whatever
+	needs to be merged. Once there is a conflict that cannot be solved without
+	automatically choosing which option to keep, Git lets the programmer deal with
+	it. It is very convenient, as the programmer doesn't have to do all common-
+	sence merging by himself. He only takes part in whatever requires a decision.
