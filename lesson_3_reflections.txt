@@ -32,3 +32,15 @@ use one instead of another?
 	when you have a master branch and want to keep it the way it, but try something
 	new. You don't need to clone your repository for that - it's just enough to
 	create another branch and save your experimental commits there.
+What is the benefit of having a copy of the last known state of the remote
+stored locally?
+	In case anybody else is working on a project, they might update the remote.
+	For example, if they add several commits to it, it will be harder for the
+	programmer to merge his own version with the most current on remote. Instead,
+	he can use his local copy of the remote to see what was the initial parent
+	commit that he started working with. He will also be able to compare his
+	branch with the same branch on remote to see what commits he added, and what
+	exactly was added in each of the commits, and how it all is different from
+	the remote version. This way the programmer will be able to see what changes
+	he made, and it will make it easier to merge his most recent commit with the
+	one that is on GitHub.
