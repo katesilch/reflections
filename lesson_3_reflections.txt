@@ -17,3 +17,18 @@ automatically stay up-to-date with your remote repository?
 	to update it? Instead, the most current version of the branch will be replaced
 	with the outdated one.
 
+Describe the differences between forks, clones, and branches.  When would you
+use one instead of another?
+	Forks are the clones of repositories made on GitHub servers only. That means
+	that when you fork somebody else's repository, it will appear directly on
+	your GitHub profile. Clones are copies of repositories made both locally
+	(you can clone your repository and save the clone in a different directory
+	on your computer) or made from GitHub to a computer (you can clone someone
+	else's repository and save it on your computer). However, you cannot clone
+	a repository from someone's GitHub profile to your own GitHub profile - for
+	that you will need to use fork. Branch is a list of commits. You can create
+	new branches and save commits there if you want to make some exotic or
+	experimental changes to your projects or add a new feature. Branches are used
+	when you have a master branch and want to keep it the way it, but try something
+	new. You don't need to clone your repository for that - it's just enough to
+	create another branch and save your experimental commits there.
