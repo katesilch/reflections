@@ -32,6 +32,7 @@ use one instead of another?
 	when you have a master branch and want to keep it the way it, but try something
 	new. You don't need to clone your repository for that - it's just enough to
 	create another branch and save your experimental commits there.
+
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 	In case anybody else is working on a project, they might update the remote.
@@ -44,3 +45,15 @@ stored locally?
 	the remote version. This way the programmer will be able to see what changes
 	he made, and it will make it easier to merge his most recent commit with the
 	one that is on GitHub.
+
+How would you collaborate without using Git or GitHub?  What would be easier,
+and what would be harder?
+	It would be very hard to collaborate without using Git or GitHub. In order
+	to share the changes in the project with other, programmer would have to
+	either send zip files in the emails/messengers. If the people are close,
+	they could copy it to a memory stick or use a shared network. But it will
+	be not possible in case people are not located in the same building. The only
+	easier thing about not using Git or GitHub is ability to share the versions
+	without being connected to the internet, but you can always use the methods
+	decribed above. Using them on the regular basis would be much more complicated
+	and imperfect as opposed to using Git and GitHub.
