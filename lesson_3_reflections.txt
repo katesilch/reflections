@@ -57,3 +57,17 @@ and what would be harder?
 	without being connected to the internet, but you can always use the methods
 	decribed above. Using them on the regular basis would be much more complicated
 	and imperfect as opposed to using Git and GitHub.
+
+
+When would you want to make changes in a separate branch rather than directly in
+master?  What benefits does each approach have?
+	It is better to make changes in a separate branch when you are adding a new
+	feature, or you don't know how the other collaborators will react to this
+	change. It might be more convenient to directly push the changes into the
+	master branch on GitHub, but this way others will not be able to see that
+	there was a change (they will not be notified). When making a pull request,
+	they will get a notification clearly showing what you are suggesting, and
+	what changes you made. It might take longer to create separate branches
+	and pull requests for every new change, but this helps keep the master branch
+	neat and organized. It will also be much easier to make the merges when
+	everyone knows what is going on in master branch.
